@@ -1,0 +1,15 @@
+server:
+  port: '8080'
+  url: 'portcheck'
+  headerSecrete: 'auth'
+  secrete: 'P@11w0rd'
+
+ports:
+  '80': 'HTTP'
+  '443': 'HTTPS'
+  '3306': 'MySQL'
+  '8000': 'Laravel'
+  # '5432': 'PostgreSQL'
+  # '27017': 'MongoDB'
+  # '6379': 'Redis'
+  # '11211': 'Memcached'
